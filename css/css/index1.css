@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+}
+.box {
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  margin: 50px;
+}
+#box1 {
+  background-color: red;
+  margin-left: auto;
+}
+#box2 {
+  background-color: blue;
+}
+#img1 {
+  float: left;
+  margin-right: 10px;
+}
+#img2 {
+  float: right;
+  margin-left: 10px;
+}
+body {
+  border: 3px solid;
+  display: flow-root;
+  border-color: aqua;
+}
+#overflow {
+  border: 4px solid;
+  height: 75px;
+  overflow: scroll;
+}
+p {
+  font-family: cursive;
+}
+.dis {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+#divdis {
+  background-color: red;
+}
+#spandis {
+  background-color: blue;
+}

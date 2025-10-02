@@ -1,0 +1,262 @@
+h1 {
+  font-family: monospace;
+  font-size: 2.3em;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: rgb(182, 178, 178);
+  text-align: center;
+  padding: 25px;
+  font-size: 1.6em;
+}
+.navbar {
+  background-color: black;
+  height: 50px;
+}
+p {
+  font-family: cursive;
+}
+* {
+  box-sizing: border-box;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside {
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+section {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+article {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+footer {
+  display: block;
+  clear: both;
+  background-color: rgb(182, 178, 178);
+  text-align: center;
+  padding: 25px;
+  font-size: 1.6em;
+}
+@media screen and (max-width: 600px) {
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+}
+.gallery {
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  margin: 5px;
+  width: 200px;
+}
+.gallery .description {
+  padding: 10px;
+  text-align: center;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.icons {
+  text-align: center;
+  margin-top: 20px;
+}
+.icons a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.fa-solid.fa-house.fa-5x {
+  color: cadetblue;
+}
+.fa-solid.fa-house.fa-5x:hover {
+  color: darkcyan;
+}
+.fa-brands.fa-twitter.fa-5x {
+  color: blue;
+}
+.fa-brands.fa-twitter.fa-5x:hover {
+  color: darkblue;
+}
+.fa-brands.fa-youtube.fa-5x {
+  color: red;
+}
+.fa-brands.fa-youtube.fa-5x:hover {
+  color: darkred;
+}
+.fa-brands.fa-tiktok.fa-5x {
+  color: hsl(0, 0%, 30%);
+}
+.fa-brands.fa-tiktok.fa-5x:hover {
+  color: hsl(0, 0%, 0%);
+}
+.container {
+  margin-top: 30px;
+  display: flex;
+  border: 10px solid black;
+  height: 90vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 3em;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 15px;
+}
+#box1 {
+  background-color: hsl(0, 85%, 62%);
+}
+#box2 {
+  background-color: rgb(246, 246, 50);
+  order: 1;
+}
+#box3 {
+  background-color: greenyellow;
+}
+#box4 {
+  background-color: #50d0d2;
+}
+.boxs {
+  width: 250px;
+  height: 250px;
+  border: 5px solid;
+  font-size: 4em;
+  text-align: center;
+  background-color: greenyellow;
+  font-family: cursive;
+  transform: translate(150px, 50px) rotateZ(4deg) scale(0.5) skewX(20deg);
+}
+#boxs1 {
+  background-color: red;
+}
+#boxs2 {
+  background-color: rgb(0, 255, 229);
+}
+#boxs3 {
+  background-color: hsl(96, 71%, 60%);
+}
+#img {
+  height: 200px;
+  transform: translate(200px, 100px) rotate(180deg) scale(1.3);
+  text-align: center;
+}
+#anime {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  font-size: 6em;
+  text-align: center;
+  animation-duration: 20s;
+  animation-name: rotate , slideRight, slideLeft, slideDown, SlideUp , grow,
+    shrink, fade, colorchange , glow;
+  font-family: cursive;
+}
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes slideRight {
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes slideDown {
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+}
+@keyframes rotate {
+  25% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes grow {
+  100% {
+    transform: scale(2);
+  }
+}
+@keyframes shrink {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+@keyframes fade {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes colorchange {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: orangered;
+  }
+  40% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  80% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
+}
+@keyframes glow {
+    50%{
+        box-shadow: 0px 0px 100px blue;
+    }
+}
+#anime:hover{
+    animation-name: glow;
+    animation-duration: 10s;
+}
+#anime1{
+    width: 150px;
+    height: 150px;
+    background-color:aqua;
+    text-align: center;
+    font-size: 6em ;
+    font-family: monospace;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.33,-1.83, 0.7, 2.64);
+    animation-name: slideLeft;
+}
+@keyframes slideLeft{
+  to {
+    transform: translateX(500%);
+  }
+}

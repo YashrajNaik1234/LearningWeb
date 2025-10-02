@@ -1,0 +1,85 @@
+button:hover {
+  font-size: 1.3em;
+  background-color: aqua;
+}
+button:active {
+  font-size: 1.1em;
+  background-color: greenyellow;
+}
+a:hover {
+  font-size: 1.2em;
+  background-color: yellow;
+}
+a:link {
+  color: purple;
+}
+a:active {
+  color: red;
+  font-size: 1.1em;
+}
+a:visited {
+  color: grey;
+}
+a {
+  margin-left: 150px;
+}
+button {
+  padding: 10px;
+  font-size: medium;
+  border-radius: 20px;
+  background-color: violet;
+}
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li:hover {
+  background-color: yellow;
+}
+li:not(:hover) {
+  background-color:bisque;
+}
+li:nth-child(3n + 1) {
+  background-color: aqua;
+}
+div {
+  font-family: monospace;
+  font-size: x-large;
+}
+#greeting p {
+  background-color: purple;
+  padding: 5px;
+  display: none;
+}
+#greeting:hover p {
+  display: block;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h2::first-letter{
+    font-size: 2.2em;
+}
+p::first-line{
+    background-color:greenyellow;
+}
+p::selection{
+    color: yellow;
+    background-color: red;
+}
+#fruit li::before{
+    
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#bannana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content:"✔️";
+    color: greenyellow;
+    font-size: 1.2em;
+}

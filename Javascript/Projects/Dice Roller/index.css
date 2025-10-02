@@ -1,0 +1,40 @@
+body{
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+}
+
+#container{
+    font-size: 1rem;
+    font-weight: bold;
+}
+#dicegame{
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#dicegame:hover{
+    background-color: rgb(0, 0, 0);
+}
+#dicegame:active{
+    background-color:hsl(0, 0%, 20%);
+}
+#input1{
+    font-size: 1.2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#diceRsult{
+    margin: 25px;
+}
+#diceImages img{
+    width:150px;
+    margin: 5px;
+    border-radius: 10px;
+}

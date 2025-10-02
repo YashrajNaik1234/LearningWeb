@@ -1,0 +1,27 @@
+#p2{
+    color: red;
+}
+#p1{
+    color: orange;
+}
+#p3{
+    color: yellow;
+}
+#p4{
+    color: green;
+}
+
+.even{
+    color: wheat;
+}
+
+.odd{
+    color: violet;
+}
+
+#p9{
+    color: rgb(102,222,14);
+}
+#p10{
+    color: #555345;
+}

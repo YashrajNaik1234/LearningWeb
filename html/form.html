@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="https://www.bing.com">
+      <button
+        style="font-size: 25px; background-color: aqua; border-radius: 5px"
+      >
+        Click Me
+      </button>
+    </a>
+
+    <button
+      onclick="dosomething()"
+      style="font-size: 25px; background-color: orangered; border-radius: 5px"
+    >
+      Change Text
+    </button>
+
+    <p style="font-size: larger; font-style: italic" id="greeting">Hello</p>
+
+    <script>
+      function dosomething() {
+        document.getElementById("greeting").innerHTML = "Goodbye";
+      }
+    </script>
+
+    <form action="" method="post" enctype="multipart/form-data">
+      <label for="username">Username :</label>
+      <input
+        type="text"
+        name=""
+        id="Username"
+        placeholder="abcd"
+        minlength="6"
+        required
+      />
+      <br />
+      <label for="password"
+        >Password :
+        <input
+          type="password"
+          name=""
+          id="Password"
+          minlength="6"
+          maxlength="15"
+          required
+        />
+      </label>
+      <br />
+      <label for="email">Email :</label>
+      <input
+        type="email"
+        name=""
+        id="email"
+        placeholder="$$abc123@gmail.com"
+        required
+      />
+      <br />
+      <label for="phone">Phone # :</label>
+      <input
+        type="tel"
+        name=""
+        id="phone"
+        placeholder="123-456-789"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+        required
+      />
+      <br />
+      <label for="bday">Birthday :</label>
+      <input type="date" id="bday" />
+      <br />
+      <label for="quantity">Quantity :</label>
+      <input type="number" id="quantity" min="0" max="99" />
+      <br />
+
+      <label for="Mr.">Mr.</label>
+      <input type="radio" id="Mr." value="Mr." />
+
+      <label for="Mrs.">Mrs.</label>
+      <input type="radio" id="Mrs." value="Mrs." />
+
+      <label for="PhD.">PhD.</label>
+      <input type="radio" id="PhD." value="Phd." />
+      <br />
+
+      <label for="payment">Payment</label>
+      <select name="" id="payment">
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Giftcard">Giftcard</option>
+      </select>
+      <br />
+
+      <label for="subscribe">Subscribe</label>
+      <input type="checkbox" name="" id="subscribe" /><br />
+
+      <label for="comment"
+        >Comment :
+        <textarea type="comment" rows="3" cols="25" name="" id=""></textarea>
+      </label>
+      <br />
+
+      <label for="file">File:</label>
+      <input
+        type="file"
+        name=""
+        id="file"
+        accept="image/png , image/jpeg"
+      /><br />
+
+      <br />
+      <input type="submit" /> <input type="reset" />
+    </form>
+
+    <header style="background-color: wheat">
+      <h2>Welcome to My Website</h2>
+      <a href="">Home</a>
+      <a href="">About Us</a>
+      <a href="">Products</a>
+      <a href="">Contact Us</a>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Check out these cool moves :</h2>
+      <img src="/Youtube/assets/image1.jpg" alt="pic" style="height: 200px" />
+      <p style="font-family: cursive">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+        illum vitae qui ducimus aspernatur. Culpa et magni eaque vero adipisci
+        eius inventore ut consequatur voluptas velit, accusamus ipsum quasi
+        sunt?
+      </p>
+      <hr />
+    </main>
+
+    <footer style="background-color: violet">
+      Author : Bro Code <br />
+      &copy; copyright reserved <br />
+      <small><a href="abc123@gmail.com">Mail Id</a></small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+}
+form{
+    background-color: whitesmoke;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsl(0, 0%, 0% , 0.8);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#temp{
+    margin-top: 15px;
+    background-color: aqua;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border: solid;
+    border-radius:8px;
+    cursor: pointer;
+}
+#temp:hover{
+    background-color: hsl(180, 100%, 45%);
+}
+#Result{
+    font-size: 1.5em;
+    font-weight: bold;
+}

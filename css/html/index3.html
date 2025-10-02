@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index3.css">
+  </head>
+  <body>
+    <h1 style="font-family: monospace; font-size: 2.7em">Backgound Image , Combinators </h1>
+    <h2 style="font-family: monospace; font-size: 1.7em">{Descendants , Child , General Sibling , Adjacent}</h2>
+    <p style="font-family: cursive;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum
+      magnam alias, obcaecati ipsum commodi dolor officiis modi molestiae magni
+      quos esse blanditiis laudantium quisquam, similique a molestias deleniti
+      quae.
+    </p>
+
+    <div id="container">
+      <p>This is #1</p>
+      <p>This is #2</p> <!---THESE ARE DIRECT CHILD ONLY CHILD GIVEN AS { > }-->
+      <div>
+        <p><p>This is #3</p></p> <!---THESE ARE NOT CHILD-->
+        <!---ALL CHILDREN ARE DESCENDENTS BUT NOT ALL DESCENDANTS ARE CHILDREN-->
+      </div>
+    </div>
+
+    <p>This is #4</p>  <!---ONLT THE NEXT SIBLING TO THE PARENT AS TERMED AS{ + }-->
+    <p>This is #5</p> <!---THESE BOTH ARE GENERAL SIBLINGS TERMED AS { ~ }-->
+
+  </body>
+</html>

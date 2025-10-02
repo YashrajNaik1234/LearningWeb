@@ -1,0 +1,68 @@
+h1{
+    font-family: monospace; 
+    font-size: 2.3em;
+    text-align: center;
+}
+p{
+    font-family: cursive;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color:grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .content{
+    display: block;
+    background-color:cornsilk
+}
+.dropdown a:hover{
+    background-color:gainsboro;
+}
+h3{
+    text-align: center;
+    font-family: cursive;
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: whitesmoke;
+}
+.navbar li{
+    float: left;
+}

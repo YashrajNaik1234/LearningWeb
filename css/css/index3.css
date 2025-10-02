@@ -1,0 +1,26 @@
+body{
+    background-image: url(../../assets/Color.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+p{
+    font-weight: bolder;
+    font-size: large;
+}
+#container{
+    border: 2px solid;
+}
+#container  p{
+    background-color:aqua;
+}
+#container > p{
+    background-color: yellow;
+}
+#container ~ p{
+    background-color: beige;
+}
+#container + p{
+    background-color:chartreuse;
+}

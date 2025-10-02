@@ -1,0 +1,40 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size:7em ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color:blueviolet;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    font-family: cursive;
+}
+.buttons:hover{
+    background-color:rebeccapurple;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#mybutton{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-family: cursive;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+#mybutton:hover{
+    background-color:rgb(201, 201, 201);
+}
+.myLabel{
+    font-size: 2em;
+}
